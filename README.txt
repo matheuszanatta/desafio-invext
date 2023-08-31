@@ -1,7 +1,7 @@
 Abaixo estão as instruções para executar a solução implementada e realizar requisições que serão encaminhadas para a respectiva fila que cada microsserviço atende.
 
 A solução consta com 1 lib e 4 microsserviços:
-desafio-invext
+invext
 consumer-card
 consumer-loan
 consumer-others
@@ -18,7 +18,7 @@ JDK mínima na versão 17 para execução do projeto.
 Execução do Projeto:
 1º: Através da linha de comando, navegue até o diretório raiz do projeto librabbitmq e execute o comando:
 	> ./mvnw install -f pom.xml
-2º: Navegue até o diretório raiz do projeto desafio-invext
+2º: Navegue até o diretório raiz do projeto invext
 3º: Execute o comando:
 	> docker-compose up -d
 4º: Execute o comando:
