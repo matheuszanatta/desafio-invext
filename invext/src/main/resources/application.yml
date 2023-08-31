@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: invext-api
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+app:
+  rabbitmq:
+    card:
+      exchange: card.exchange
+      queue: card.queue
+      routing-key: card.routing-key
+    loan:
+      exchange: loan.exchange
+      queue: loan.queue
+      routing-key: loan.routing-key
+    other:
+      exchange: other.exchange
+      queue: other.queue
+      routing-key: other.routing-key
