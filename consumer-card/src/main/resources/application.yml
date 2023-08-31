@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: consumer-card
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+app:
+  rabbitmq:
+    card:
+      queue: card.queue
+      prefetch-count: 3

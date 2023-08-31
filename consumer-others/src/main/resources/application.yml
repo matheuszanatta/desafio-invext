@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: consumer-other
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+app:
+  rabbitmq:
+    other:
+      queue: other.queue
+      prefetch-count: 3
